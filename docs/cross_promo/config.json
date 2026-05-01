@@ -3,30 +3,40 @@
     {
       "name": "战地射手",
       "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/battle_shooter.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/battle_shooter.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/battle_shooter.png",
       "iosId": "000000001",
       "androidId": "com.xformgames.battleshooter"
     },
     {
       "name": "城市赛车",
       "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/city_racer.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/city_racer.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/city_racer.png",
       "iosId": "000000002",
       "androidId": "com.xformgames.cityracer"
     },
     {
       "name": "末日僵尸",
       "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/zombie_pocalypse.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/zombie_pocalypse.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/zombie_pocalypse.png",
       "iosId": "000000003",
       "androidId": "com.xformgames.zombiepocalypse"
     },
     {
       "name": "太空战争",
       "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/space_war.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/space_war.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/space_war.png",
       "iosId": "000000004",
       "androidId": "com.xformgames.spacewar"
     },
     {
       "name": "坦克大战",
       "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/tank_battle.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/tank_battle.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/tank_battle.png",
       "iosId": "000000005",
       "androidId": "com.xformgames.tankbattle"
     }
