@@ -1,0 +1,34 @@
+{
+  "games": [
+    {
+      "name": "战地射手",
+      "iconUrl": "resources://CrossPromoIcons/battle_shooter",
+      "iosId": "000000001",
+      "androidId": "com.xformgames.battleshooter"
+    },
+    {
+      "name": "城市赛车",
+      "iconUrl": "resources://CrossPromoIcons/city_racer",
+      "iosId": "000000002",
+      "androidId": "com.xformgames.cityracer"
+    },
+    {
+      "name": "末日僵尸",
+      "iconUrl": "resources://CrossPromoIcons/zombie_pocalypse",
+      "iosId": "000000003",
+      "androidId": "com.xformgames.zombiepocalypse"
+    },
+    {
+      "name": "太空战争",
+      "iconUrl": "resources://CrossPromoIcons/space_war",
+      "iosId": "000000004",
+      "androidId": "com.xformgames.spacewar"
+    },
+    {
+      "name": "坦克大战",
+      "iconUrl": "resources://CrossPromoIcons/tank_battle",
+      "iosId": "000000005",
+      "androidId": "com.xformgames.tankbattle"
+    }
+  ]
+}
