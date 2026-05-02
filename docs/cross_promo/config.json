@@ -1,44 +1,60 @@
 {
   "games": [
     {
-      "name": "战地射手",
-      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/battle_shooter.png",
-      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/battle_shooter_ios.png",
-      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/battle_shooter_android.png",
-      "iosId": "000000001",
-      "androidId": "com.xformgames.battleshooter"
+      "name": "游侠世界-雷霆长空",
+      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/RogueKnight.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/RogueKnight.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/RogueKnight.png",
+      "iosId": "1610849691",
+      "androidId": "com.lqlfreegames.grandtheftworldsCN"
     },
     {
-      "name": "城市赛车",
-      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/city_racer.png",
-      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/city_racer_ios.png",
-      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/city_racer_android.png",
-      "iosId": "000000002",
-      "androidId": "com.xformgames.cityracer"
+      "name": "游侠荣耀",
+      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/GreatKnights.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/GreatKnights.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/GreatKnights.png",
+      "iosId": "1166568154",
+      "androidId": "com.lqlfreegames.ironcityios"
     },
     {
-      "name": "末日僵尸",
-      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/zombie_pocalypse.png",
-      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/zombie_pocalypse_ios.png",
-      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/zombie_pocalypse_android.png",
-      "iosId": "000000003",
-      "androidId": "com.xformgames.zombiepocalypse"
+      "name": "未来战争大师",
+      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/FutureWar.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/FutureWar.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/FutureWar.png",
+      "iosId": "1196165287",
+      "androidId": "com.futurewarmaster.superfreegame"
     },
     {
-      "name": "太空战争",
-      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/space_war.png",
-      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/space_war_ios.png",
-      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/space_war_android.png",
-      "iosId": "000000004",
-      "androidId": "com.xformgames.spacewar"
+      "name": "我的像素世界",
+      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/ZombieWorld.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/ZombieWorld.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/ZombieWorld.png",
+      "iosId": "1175727748",
+      "androidId": "com.firstgames.myzworldios"
     },
     {
-      "name": "坦克大战",
-      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/tank_battle.png",
-      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/tank_battle_ios.png",
-      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/tank_battle_android.png",
-      "iosId": "000000005",
-      "androidId": "com.xformgames.tankbattle"
+      "name": "雷霆空战世界",
+      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/Thunder.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/Thunder.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/Thunder.png",
+      "iosId": "1170506701",
+      "androidId": "com.lqlfreegames.planefighterworld"
+    },
+    {
+      "name": "悟空的冒险世界",
+      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/WuKong.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/WuKong.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/WuKong.png",
+      "iosId": "1205067522",
+      "androidId": "com.wkadventgame.freeadhq"
+    },
+    {
+      "name": "我的登山自行车",
+      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/bike.png",
+      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/bike.png",
+      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/bike.png",
+      "iosId": "1172717481",
+      "androidId": "com.tidgames.mymountbikes"
     }
   ]
 }
