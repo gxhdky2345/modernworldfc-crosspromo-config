@@ -4,6 +4,7 @@ Static config and icon hosting for ModernWorldFC cross promotion via GitHub Page
 
 ## Structure
 
+- `docs/app_config.json`: Remote runtime app config used by the ad system.
 - `docs/cross_promo/config.json`: Cross promotion data consumed by the game.
 - `docs/cross_promo/icons/`: Hosted PNG icons used by the config.
 
@@ -13,7 +14,7 @@ GitHub Pages base URL:
 https://gxhdky2345.github.io/modernworldfc-crosspromo-config/
 ```
 
-## Config Schema
+## Cross Promo Schema
 
 Each game entry supports one shared fallback icon plus optional platform-specific icons.
 
@@ -75,6 +76,59 @@ The value stored in `iosId` is:
 ```text
 1234567890
 ```
+
+## App Config Schema
+
+`docs/app_config.json` is loaded during game startup by `AdManager`, before ad SDK initialization.
+
+```json
+{
+	"ads": {
+		"preferredInterstitialProvider": "admob",
+		"preferredRewardedProvider": "admob",
+		"interstitialCooldownSeconds": 60,
+		"rewardedRetryDelaySeconds": 5,
+		"adLoadRetryDelaySeconds": 10,
+		"android": {
+			"unityAds": {
+				"gameId": "1384186",
+				"interstitialPlacement": "Interstitial_Android_Bidding",
+				"bannerPlacement": "Banner_Android_Bidding",
+				"rewardedPlacement": "Rewarded_Android_Bidding"
+			},
+			"admob": {
+				"interstitialId": "ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyy",
+				"bannerId": "ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyy",
+				"rewardedId": "ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyy"
+			}
+		},
+		"ios": {
+			"unityAds": {
+				"gameId": "1316931",
+				"interstitialPlacement": "Interstitial_iOS_Bidding",
+				"bannerPlacement": "Banner_iOS_Bidding",
+				"rewardedPlacement": "Rewarded_iOS_Bidding"
+			},
+			"admob": {
+				"interstitialId": "ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyy",
+				"bannerId": "ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyy",
+				"rewardedId": "ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyy"
+			}
+		}
+	}
+}
+```
+
+Field notes:
+
+- `preferredInterstitialProvider`: `admob` or `unityads`. If the preferred provider is unavailable at runtime, the game falls back to the other one.
+- `preferredRewardedProvider`: same rule as above, but for rewarded ads.
+- `interstitialCooldownSeconds`: minimum interval between interstitials.
+- `rewardedRetryDelaySeconds`: reserved for rewarded retry cadence.
+- `adLoadRetryDelaySeconds`: retry interval after load failures.
+- `android` / `ios`: per-platform ad IDs and placements.
+
+The current runtime only switches interstitial and rewarded ad priority. Banner display still uses the existing AdMob banner implementation.
 
 ## Publish Changes
 
