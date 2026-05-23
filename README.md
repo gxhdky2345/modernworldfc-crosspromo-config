@@ -84,8 +84,8 @@ The value stored in `iosId` is:
 ```json
 {
 	"ads": {
-		"preferredInterstitialProvider": "unityads",
-		"preferredRewardedProvider": "unityads",
+		"preferredInterstitialProvider": "admob",
+		"preferredRewardedProvider": "admob",
 		"interstitialCooldownSeconds": 60,
 		"rewardedRetryDelaySeconds": 5,
 		"adLoadRetryDelaySeconds": 10,
