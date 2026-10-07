@@ -17,14 +17,6 @@
       "androidId": "com.lqlfreegames.ironcityios"
     },
     {
-      "name": "未来战争大师",
-      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/FutureWar.png",
-      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/FutureWar.png",
-      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/FutureWar.png",
-      "iosId": "1196165287",
-      "androidId": "com.futurewarmaster.superfreegame"
-    },
-    {
       "name": "我的像素世界",
       "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/ZombieWorld.png",
       "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/ZombieWorld.png",
@@ -39,22 +31,6 @@
       "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/Thunder.png",
       "iosId": "1170506701",
       "androidId": "com.lqlfreegames.planefighterworld"
-    },
-    {
-      "name": "悟空的冒险世界",
-      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/WuKong.png",
-      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/WuKong.png",
-      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/WuKong.png",
-      "iosId": "1205067522",
-      "androidId": "com.wkadventgame.freeadhq"
-    },
-    {
-      "name": "我的登山自行车",
-      "iconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/bike.png",
-      "iosIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/bike.png",
-      "androidIconUrl": "https://gxhdky2345.github.io/modernworldfc-crosspromo-config/cross_promo/icons/bike.png",
-      "iosId": "1172717481",
-      "androidId": "com.tidgames.mymountbikes"
     }
   ]
 }
