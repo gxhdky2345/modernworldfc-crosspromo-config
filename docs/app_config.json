@@ -6,12 +6,6 @@
     "rewardedRetryDelaySeconds": 5,
     "adLoadRetryDelaySeconds": 10,
     "android": {
-      "unityAds": {
-        "gameId": "1384186",
-        "interstitialPlacement": "Interstitial_Android_Bidding",
-        "bannerPlacement": "Banner_Android_Bidding",
-        "rewardedPlacement": "Rewarded_Android_Bidding"
-      },
       "admob": {
         "interstitialId": "ca-app-pub-9427669866758945/8122959889",
         "bannerId": "ca-app-pub-9427669866758945/8067119561",
@@ -19,12 +13,6 @@
       }
     },
     "ios": {
-      "unityAds": {
-        "gameId": "1316931",
-        "interstitialPlacement": "Interstitial_iOS_Bidding",
-        "bannerPlacement": "Banner_iOS_Bidding",
-        "rewardedPlacement": "Rewarded_iOS_Bidding"
-      },
       "admob": {
         "interstitialId": "ca-app-pub-9427669866758945/6775258513",
         "bannerId": "ca-app-pub-9427669866758945/5298525312",
